@@ -1,9 +1,10 @@
 import './App.css';
+import { Likes } from './Likes';
 
 function App() {
   return (
     <div>
-      <h1>HELLO</h1>
+      <Likes/>
     </div>
   );
 }
