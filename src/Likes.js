@@ -16,11 +16,15 @@ export class Likes extends Component {
     };
   }
 
+  updateLikes() {
+    this.setState({ likes: this.state.likes + 1 });
+  }
+
   render() {
     return (
       <div>
         <h1>{this.state.likes} LIKES</h1>
-        <button>LIKE</button>
+        <button onClick={() => this.updateLikes()}>LIKE</button>
       </div>
     );
   }
