@@ -18,7 +18,7 @@ export class ChangeName extends Component {
 
   render() {
     return (
-      <div>
+      <div className="item">
         <h3>My name is {this.state.name}</h3>
         <h3>I'm {this.state.age} years old</h3>
         <button onClick={() => this.updateName()}>Click me</button>

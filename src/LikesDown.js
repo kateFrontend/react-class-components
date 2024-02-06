@@ -16,9 +16,9 @@ export class LikesDown extends Component {
 
   render() {
     return (
-      <div>
+      <div className="item">
         <h1>{this.state.likes} LIKES</h1>
-        <button onClick={() => this.updateLikes()}>LIKE</button>
+        <button onClick={() => this.updateLikes()}>DISLIKE</button>
       </div>
     );
   }

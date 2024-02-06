@@ -5,7 +5,7 @@ import { LikesDown } from "./LikesDown";
 
 function App() {
   return (
-    <div>
+    <div className="flex">
       <Likes />
       <LikesDown />
       <ChangeName />

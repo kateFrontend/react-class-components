@@ -22,7 +22,7 @@ export class Likes extends Component {
 
   render() {
     return (
-      <div>
+      <div className="item">
         <h1>{this.state.likes} LIKES</h1>
         <button onClick={() => this.updateLikes()}>LIKE</button>
       </div>
